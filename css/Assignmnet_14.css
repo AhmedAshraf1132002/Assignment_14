@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 20px 32px;
+  font-size: 25px;
+  transition: 0.3s;
+}
+#Home {
+  background-image: url(../Assignment_14_photos/events-heavenly-header.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 660px;
+  color: #fff;
+  position: relative;
+}
+#Home h2,
+p {
+  text-align: center;
+}
+.homeOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+  z-index: 22;
+}
+.homeOverlay .sidenav {
+  height: 100%;
+  background-color: #111;
+  position: fixed;
+  top: 0;
+  left: -300px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  z-index: 999;
+}
+.sidenav a:hover {
+  color: #dc3545;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  transform: translateX(-150%);
+}
+#Home .homeOverlay #homeContent {
+  padding: 15px;
+}
+#Home .homeOverlay #homeContent h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 200px;
+}
+#Home .homeOverlay #homeContent p {
+  text-align: center;
+}
+#Home .homeOverlay #homeContent span {
+  font-size: 30px;
+}
+/* section....two */
+#sliderDown {
+  width: 50%;
+  margin: 100px auto;
+}
+#sliderDown h3 {
+  padding: 10px;
+  background-color: rgba(214, 46, 51, 0.6);
+  color: white;
+  margin: 0;
+}
+#sliderDown .inner {
+  background-color: #ccc;
+}
+/* section....three */
+#count {
+  position: relative;
+  background-image: url(../Assignment_14_photos/invitation-2508607__340.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  height: 330px;
+}
+#count .count-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(214, 46, 51, 0.6);
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+#count .count-overlay .container .time{
+  border: 1px solid #fff;
+  padding: 50px;
+  font-size: 30px;
+  margin-top: 100px;
+}
+/* .......footer..... */
+#contact{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#contact .container .head h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #444;
+}
+#contact .container .col-info .icons .red {
+  color: #d62e33 !important;
+}
+#contact .container .head p {
+  color: #777;
+  /* font-size: 16px; */
+  /* font-weight: 300; */
+}
+#contact .container .row .col-info h3 {
+  font-size: 18px;
+  color: #444;
+  font-weight: bold;
+}
+#contact .container .row .col-info p {
+  color: #777;
+  line-height: 26px;
+  /* font-size: 16px; */
+}
+#contact .container .row .col-info .icons {
+  margin-top: 50px;
+}
+#contact .container .row .col-info .icons p {
+  margin-bottom: 35px;
+}
+#contact .container .col-info .social {
+  color: #777;
+  margin-top: 60px;
+}
+#contact .container .col-info .social i {
+  border: 1px solid #999;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+#contact .container .col-info .social i:hover{
+  color: #fff;
+  background-color: #d62e33;
+}
+#contact form input{
+  margin-bottom: 20px;
+}
+#contact form textarea{
+  height: 200px;
+  margin-bottom: 20px;
+}
+#chars{
+  color: #d62e33;
+  font-size: 20px;
+
+}
+.btnSubmit{
+  background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+   margin-top: 20px;
+}
